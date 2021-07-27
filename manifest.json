@@ -1,0 +1,12 @@
+{
+  "name": "YT Playlist Watchtime",
+  "version": "0.1",
+  "description": "Calculates the total watch time of playlist's videos.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "js": ["background.js"],
+      "matches": ["https://www.youtube.com/playlist?list=*"]
+    }
+  ]
+}
